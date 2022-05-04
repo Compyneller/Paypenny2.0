@@ -1,0 +1,40 @@
+.CreateAccountMainContainer{
+    width: 100%;
+    min-height: 50vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .midCard {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        color: white;
+        transition: 250ms ease-out;
+        h5{
+            margin: 2rem 0;
+        }
+        p{
+            line-height: 35px;
+        }
+        &:hover{
+            color: goldenrod;
+        }
+      }
+      
+      .midCard img {
+        width: 20%;
+        height: 20%;
+        filter: invert(1);
+
+      }
+}
+@media screen and (max-width : 850px) {
+    .CreateAccountMainContainer{
+        padding: 3rem 0;
+    }
+    
+  }

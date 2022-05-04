@@ -1,0 +1,54 @@
+.qrMainContainer{
+    min-height: 50vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 3rem 0;
+
+    img{
+        width: 50%;
+        filter: invert(1);
+        image-rendering: auto;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+
+  /* Safari seems to support, but seems deprecated and does the same thing as the others. */
+  image-rendering: -webkit-optimize-contrast;
+    }
+    .qrDownloadButton{
+        a{
+        width: 15rem;
+        background-color: white;
+        border-radius: 50px;
+        min-height: 3rem;
+        text-decoration: none;
+        margin: 2rem auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem;
+        color: black;
+        
+        i{
+            font-size: 25px;
+        }
+        p{
+            margin: auto 0;
+        }
+        
+    }}
+    .qrSocialsButton {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        img{
+            width: 25%;
+        }
+    }
+
+}

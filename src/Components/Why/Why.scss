@@ -1,0 +1,28 @@
+.whyMainContainer{
+    min-height: 100vh;
+    background: black;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 0;
+    h1{
+        color: white;
+        text-align: center;
+        margin: 1rem 0;
+    }
+    .whySideCard {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        color: white;
+        img{
+            filter: invert(1);
+            width: 20%;
+        }
+
+    }
+    
+
+}

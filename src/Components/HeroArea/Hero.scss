@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+.HeroMainContainer{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // background-image: url('../../Assets/istockphoto-1322152635-640_adpp_is.mp4');
+    // background-repeat: no-repeat;
+    // background-size: cover;
+        image-rendering: auto;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+    color: white;
+
+    /* Safari seems to support, but seems deprecated and does the same thing as the others. */
+    image-rendering: -webkit-optimize-contrast;
+    flex-direction: column;
+    position: relative;
+
+    video{
+        position: fixed;
+        min-height: 100vh;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        width: 100%;
+        image-rendering: auto;
+        image-rendering: crisp-edges;
+        image-rendering: pixelated;
+    
+        /* Safari seems to support, but seems deprecated and does the same thing as the others. */
+        image-rendering: -webkit-optimize-contrast;
+        flex-direction: column;
+        object-fit: cover;
+
+    }
+    .HeroNavBar{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+    .container{
+        z-index: 2;
+        h1{
+            font-size: 70px;
+            text-align: center;
+            font-family: 'Playfair Display', serif;
+        }
+    }
+    
+   
+}
+@media screen and (max-width : 850px) {
+    h1{
+        font-size: 50px !important;
+    }
+    
+}
