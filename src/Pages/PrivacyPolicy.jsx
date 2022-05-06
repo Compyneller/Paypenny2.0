@@ -1,10 +1,18 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const PrivacyPolicy = () => {
   return (
-    <div>
-      <div className="container py-5">
-        <h1>Privacy & Policy</h1>
+    <div className="w-100 bg-light">
+      <div className="container py-5 d-flex">
+        <Link to="/">
+          <img
+            className="w-50"
+            src="https://img.icons8.com/ios-glyphs/2x/home-page--v2.gif"
+            alt=""
+          />
+        </Link>
+        <h1 className="my-auto">Privacy & Policy</h1>
       </div>
 
       <div style={{ background: "#0F4A8A" }}>

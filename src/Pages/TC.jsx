@@ -1,11 +1,20 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const TC = () => {
   return (
-    <div>
-      <div className="container">
-        <h1 className="py-5">Terms & Conditions</h1>
+    <div className="w-100 bg-light">
+      <div className="container py-5 d-flex">
+        <Link to="/">
+          <img
+            className="w-50 my-auto"
+            src="https://img.icons8.com/ios-glyphs/2x/home-page--v2.gif"
+            alt=""
+          />
+        </Link>
+        <h1 className="my-auto">Terms & Conditions</h1>
       </div>
+
       <div className="text-light" style={{ background: "#0F4A8A" }}>
         <div className="container py-5">
           <h5 className="font-weight-bold">Paypenny User Agreement</h5>

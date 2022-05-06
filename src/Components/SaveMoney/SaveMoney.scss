@@ -1,0 +1,67 @@
+.MoneyMainContainer{
+    min-height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: white;
+    text-align: center;
+    img{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        min-height: 50vh !important;
+        object-fit: cover;
+        image-rendering: auto;
+        image-rendering: crisp-edges;
+        image-rendering: pixelated;
+      
+        /* Safari seems to support, but seems deprecated and does the same thing as the others. */
+        image-rendering: -webkit-optimize-contrast;
+      z-index: -1;
+      filter: brightness(.5);
+
+    }
+    .cta{
+        color: white;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        background: none;
+        padding: 12px 18px;
+        position: relative;
+        margin: 0 auto;
+        width: 15rem;
+        justify-content: center;
+        &::before{
+            content: "";
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%) translateX(calc( 100% + 4px));
+            width: 45px;
+            height: 45px;
+            background-color: #A132DF;
+            border-radius: 50px;
+            transition: transform .25s .25s cubic-bezier(0,0,.5,2);
+            z-index: -1;
+
+        }
+        &:hover::before{
+            width: 100%;
+            transform: translateY(-50%) translateX(-18px);
+            transition: transform .25s cubic-bezier(0,0,.5,2), width .25s .25s cubic-bezier(0,0,.5,2);
+
+        }
+    }
+}
+@media screen and (max-width : 1000px) {
+    .MoneyMainContainer{
+        min-height: 100vh !important;
+        img{
+            min-height: 100vh !important;
+        }
+    }
+    
+}

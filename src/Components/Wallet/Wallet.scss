@@ -1,0 +1,68 @@
+.WalletMainContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    color: white;
+    text-align: center;
+    padding: 3rem 0;
+
+    h1{
+        margin-bottom: 5rem ;
+    }
+
+    
+    .box{
+        position: relative;
+        width: 300px;
+        min-height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: black;
+        margin: 0 auto;
+        
+        &::before{
+            content: '';
+            position: absolute;
+            top: -2px;
+            left: -2px;
+            right: -2px;
+            bottom: -2px;
+            background-color: #fff;
+            z-index: -1;
+    
+        }
+        &::after{
+            content: '';
+            position: absolute;
+            top: -2px;
+            left: -2px;
+            right: -2px;
+            bottom: -2px;
+            background-color: #fff;
+            z-index: -2;
+            filter: blur(40px);
+        }
+        &::before, &::after{
+            background: linear-gradient(235deg, #89ff00, black, #00bcd4);
+        }
+        .content{
+            padding: 20px;
+            box-sizing: border-box;
+            color: #fff;
+            img{
+                width: 20%;
+                mix-blend-mode: lighten;
+                filter: invert(1);
+                margin: 1rem 0;
+            }
+        }
+    }
+}
+@media screen and (max-width : 1000px) {
+    .box{
+        margin: 2rem auto !important;
+    }
+    
+}
