@@ -1,10 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./TC.scss";
 
 const PrivacyPolicy = () => {
   return (
-    <div className="w-100 bg-light">
-      <div className="container py-5 d-flex">
+    <div className="tcMainContainer">
+      <div className="container d-flex">
         <Link to="/">
           <img
             className="w-50"
@@ -15,10 +16,10 @@ const PrivacyPolicy = () => {
         <h1 className="my-auto">Privacy & Policy</h1>
       </div>
 
-      <div style={{ background: "#0F4A8A" }}>
+      <div className="tcContainer">
         <div className="container">
           <section
-            className="text-light py-5 elementor-section elementor-top-section elementor-element elementor-element-da53d5d elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+            className=" py-5 elementor-section elementor-top-section elementor-element elementor-element-da53d5d elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default"
             data-id="da53d5d"
             data-element_type="section"
             data-settings='{"stretch_section":"section-stretched","background_background":"classic"}'

@@ -1,8 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Invest.scss";
 import image from "../../Assets/Manage money.gif";
 
 const Invest = () => {
+  const [amount, setAmount] = useState(100);
+  const [duration, setDuration] = useState(10);
+  const [roi, setRoi] = useState(10);
+  const [answer, setAnswer] = useState("100");
+  console.log(roi);
+  console.log(duration);
+  const Calculator = () => {
+    const interest = (((amount * roi) / 100) * duration) / 365;
+    const total = interest;
+    setAnswer(parseInt(total) + parseInt(amount));
+  };
+
   return (
     <div className="InvestMainContainer">
       <div className="container">
@@ -59,21 +71,107 @@ const Invest = () => {
                 </tr>
               </tbody>
             </table>
+            <br />
+            <div className="row">
+              <div className="col-4">
+                <p className="m-auto">Amount</p>
+                <input
+                  style={{
+                    background: "none",
+                    border: "1px solid white",
+                    color: "white",
+                    borderRadius: "50px",
+                  }}
+                  className="w-100 p-3"
+                  type="tel"
+                  placeholder="Amount"
+                  value={amount}
+                  onChange={(e) => setAmount(e.target.value)}
+                />
+              </div>
+              <div className="col-4">
+                <p className="m-auto">Duration</p>
+                <select
+                  style={{
+                    background: "none",
+                    border: "1px solid white",
+                    color: "white",
+                    borderRadius: "50px",
+                  }}
+                  className="w-100 p-3"
+                  name=""
+                  value={duration}
+                  id=""
+                  onChange={(e) => setDuration(e.target.value)}
+                >
+                  <option className="text-dark" value={10}>
+                    10 days
+                  </option>
+                  <option className="text-dark" value={15}>
+                    15 days
+                  </option>
+                  <option className="text-dark" value={30}>
+                    30 days
+                  </option>
+                  <option className="text-dark" value={45}>
+                    45 days
+                  </option>
+                  <option className="text-dark" value={60}>
+                    60 days
+                  </option>
+                  <option className="text-dark" value={90}>
+                    90 days
+                  </option>
+                  <option className="text-dark" value={180}>
+                    180 days
+                  </option>
+                  <option className="text-dark" value={365}>
+                    365 days
+                  </option>
+                </select>
+              </div>
+              <div className="col-4">
+                <p className="m-auto">Rate of Interest</p>
+                <input
+                  style={{
+                    background: "none",
+                    border: "1px solid white",
+                    color: "white",
+                    borderRadius: "50px",
+                  }}
+                  className="w-100 p-3"
+                  type="tel"
+                  placeholder="Rate of interest"
+                  value={roi}
+                  onChange={(e) => setRoi(e.target.value)}
+                />
+              </div>
+            </div>
+            <br />
 
-            <div className="Calculator">
-              Amount : <input type="tel" placeholder="Amount" />
-              Duration :{" "}
-              <select name="" id="">
-                <option value="">10</option>
-                <option value="">11</option>
-                <option value="">12</option>
-                <option value="">13</option>
-                <option value="">14</option>
-                <option value="">15</option>
-                <option value="">17</option>
-                <option value="">25</option>
-              </select>
-              ROI(Per Annum) : <div className="boxx">100</div>
+            <div className="row">
+              <div className="col-6">
+                <button
+                  className="w-100 p-3"
+                  style={{ borderRadius: "50px" }}
+                  onClick={() => Calculator()}
+                >
+                  Maturity Amount
+                </button>
+              </div>
+              <div className="col-6">
+                <div
+                  className=" w-100 p-3"
+                  style={{
+                    background: "none",
+                    border: "1px solid white",
+                    color: "white",
+                    borderRadius: "50px",
+                  }}
+                >
+                  <h5 className="m-auto">{answer}</h5>
+                </div>
+              </div>
             </div>
           </div>
           <div className="col-12 col-lg-6">

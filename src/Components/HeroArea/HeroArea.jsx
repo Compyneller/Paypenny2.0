@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Hero.scss";
 import NavBar from "../NavBar/NavBar";
-import video from "../../Assets/473287184.mp4";
+import video from "../../Assets/Untitled.mp4";
 
 const HeroArea = () => {
   const [scale, setScale] = useState(1);
@@ -10,7 +10,6 @@ const HeroArea = () => {
     setScale(scaleValue);
   };
   window.addEventListener("scroll", scaleVideo);
-  console.log(scale);
   return (
     <div className="HeroMainContainer">
       <video muted autoPlay loop src={video} />

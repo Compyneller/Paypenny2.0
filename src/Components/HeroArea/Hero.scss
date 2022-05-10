@@ -5,19 +5,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    // background-image: url('../../Assets/istockphoto-1322152635-640_adpp_is.mp4');
-    // background-repeat: no-repeat;
-    // background-size: cover;
-        image-rendering: auto;
-    image-rendering: crisp-edges;
-    image-rendering: pixelated;
+   
+
     color: white;
 
-    /* Safari seems to support, but seems deprecated and does the same thing as the others. */
-    image-rendering: -webkit-optimize-contrast;
     flex-direction: column;
     position: relative;
 
+    background-image: linear-gradient(to right bottom , black 10%, transparent 90%);
     video{
         position: fixed;
         min-height: 100vh;
@@ -43,7 +38,8 @@
     }
     .container{
         z-index: 2;
-        h1{
+        h1{ 
+            // width: 70%;
             font-size: 70px;
             text-align: center;
             font-family: 'Playfair Display', serif;
@@ -55,6 +51,7 @@
 @media screen and (max-width : 850px) {
     h1{
         font-size: 50px !important;
+        width: 100% !important;
     }
     
 }

@@ -4,7 +4,7 @@ import image from "../../Assets/zachary-kadolph-IFSvUMApzsI-unsplash.jpg";
 import "./SaveMoney.scss";
 const SaveMoney = () => {
   return (
-    <div className="MoneyMainContainer">
+    <div className="SaveMoneyMainContainer">
       <img src={image} alt="" />
       <div className="container">
         <h1>Save money to buy your future!</h1>

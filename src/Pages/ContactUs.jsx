@@ -1,9 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./TC.scss";
 
 const ContactUs = () => {
   return (
-    <div className="bg-light w-100">
+    <div className="tcMainContainer">
       <div className="container py-5 d-flex">
         <Link to="/">
           <img
@@ -14,7 +15,10 @@ const ContactUs = () => {
         </Link>
         <h1 className="my-auto">Contact Us</h1>
       </div>
-      <div className="container py-5 bg-light">
+      <div
+        className="container py-5 bg-light text-dark"
+        style={{ borderRadius: "10px", padding: "1rem 3rem" }}
+      >
         <div className="entry-content">
           <div
             data-elementor-type="wp-page"

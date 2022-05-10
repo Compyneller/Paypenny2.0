@@ -1,10 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./TC.scss";
 
 const TC = () => {
   return (
-    <div className="w-100 bg-light">
-      <div className="container py-5 d-flex">
+    <div className="w-100 bg-light tcMainContainer">
+      <div className="container py-5 d-flex ">
         <Link to="/">
           <img
             className="w-50 my-auto"
@@ -15,8 +16,8 @@ const TC = () => {
         <h1 className="my-auto">Terms & Conditions</h1>
       </div>
 
-      <div className="text-light" style={{ background: "#0F4A8A" }}>
-        <div className="container py-5">
+      <div className=" tcContainer">
+        <div className="container p-5">
           <h5 className="font-weight-bold">Paypenny User Agreement</h5>
           <p>
             This User Agreement (“Agreement”) is effective as of Jan 1, 2021,
