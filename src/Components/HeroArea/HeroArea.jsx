@@ -12,7 +12,7 @@ const HeroArea = () => {
   window.addEventListener("scroll", scaleVideo);
   return (
     <div className="HeroMainContainer">
-      <video muted autoPlay loop src={video} />
+      <video className="HeroVideo" muted autoPlay loop src={video} />
       <div className="HeroNavBar">
         <NavBar />
       </div>

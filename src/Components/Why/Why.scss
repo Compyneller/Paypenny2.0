@@ -11,6 +11,20 @@
         text-align: center;
         margin: 1rem 0;
     }
+    .whySideImage{
+        img{
+            width: 100%;
+            
+            mix-blend-mode: screen;
+            image-rendering: auto;
+            image-rendering: crisp-edges;
+            image-rendering: pixelated;
+          
+            /* Safari seems to support, but seems deprecated and does the same thing as the others. */
+            image-rendering: -webkit-optimize-contrast;
+        }
+
+    }
     .whySideCard {
         display: flex;
         align-items: center;

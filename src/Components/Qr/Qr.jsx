@@ -35,22 +35,13 @@ const Qr = () => {
             </div>
             <div className="qrSocialsButton">
               <a target="_blank" href="https://www.facebook.com/PayPennyCa/">
-                <img
-                  src="https://img.icons8.com/ios/2x/facebook--v2.gif"
-                  alt=""
-                />
+                <i id="facebookIcon" className="ri-facebook-circle-line"></i>
               </a>
               <a target="_blank" href="https://www.instagram.com/paypennyca/">
-                <img
-                  src="https://img.icons8.com/ios/2x/instagram-new--v3.gif"
-                  alt=""
-                />
+                <i id="instagramIcon" className="ri-instagram-line"></i>
               </a>
               <a target="_blank" href="https://twitter.com/payPENNY2">
-                <img
-                  src="https://img.icons8.com/ios/2x/twitter--v2.gif"
-                  alt=""
-                />
+                <i id="twitterIcon" className="ri-twitter-line"></i>
               </a>
             </div>
           </div>

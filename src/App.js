@@ -17,7 +17,7 @@ function App() {
           <Route path="/privacypolicy" element={<PrivacyPolicy />} />
           <Route path="/tc" element={<TC />} />
           <Route path="/contactus" element={<ContactUs />} />
-          <Route path="/earn" element={<Earn />} />
+          <Route path="/earns" element={<Earn />} />
           <Route path="/processflow" element={<CustomerJourney />} />
         </Routes>
         <Footer />

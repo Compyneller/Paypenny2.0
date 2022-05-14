@@ -5,29 +5,7 @@
   font-family: 'Encode Sans', sans-serif;
   
 }
-nav img{
-  width: 85%;
-  image-rendering: auto;
-  image-rendering: crisp-edges;
-  image-rendering: pixelated;
 
-  /* Safari seems to support, but seems deprecated and does the same thing as the others. */
-  image-rendering: -webkit-optimize-contrast;
-
-  margin: auto 0;
-}
-.logo{
-  display: flex;
-  align-items: center;
-  justify-content: start;
-  width: 100%;
-}
-.logo a{
-  display: flex;
-  align-items: center;
-  justify-content: start;
-  width: 15%;
-}
 body{
   background-color: black;
 }
@@ -36,23 +14,10 @@ body{
   align-items: center;
   justify-content: space-between;
   margin-right: 0;
-  width: 15%;
+  width: 50%;
 
 }
-.navSideLogo a{
-  display: flex;
-  width: 5rem;
-  height: 5rem;
-  margin: auto 0;
-}
-.navSideLogo img{
-  display: flex;
-  margin: auto 0;
-  width: 4rem;
-  height: 4rem;
-  border-radius: 20px;
 
-}
 .footerSocials{
   display: flex;
   align-items: center;
@@ -61,16 +26,25 @@ body{
   
 
 }
-.footerSocials img{
-  width: 80%;
-  filter: invert(1);
+.footerSocials a{
+  
+  
+
+  text-decoration: none;
+}
+.footerSocials i{
+  color: white;
   image-rendering: auto;
   image-rendering: crisp-edges;
   image-rendering: pixelated;
 
   /* Safari seems to support, but seems deprecated and does the same thing as the others. */
   image-rendering: -webkit-optimize-contrast;
+  mix-blend-mode: screen;
+  font-size: 55px;
 }
+
+
 @media screen and (max-width : 950px) {
   .footerSocials{
     display: flex;
@@ -91,23 +65,7 @@ body{
   /* Safari seems to support, but seems deprecated and does the same thing as the others. */
   image-rendering: -webkit-optimize-contrast;
 }
-nav img{
-  width: 100% !important;
-  image-rendering: auto;
-  image-rendering: crisp-edges;
-  image-rendering: pixelated;
 
-  /* Safari seems to support, but seems deprecated and does the same thing as the others. */
-  image-rendering: -webkit-optimize-contrast;
-
-  margin: auto 0;
-}
-.logo a{
-  display: flex;
-  align-items: center;
-  justify-content: start;
-  width: 45%;
-}
 
 }
 @import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@400;700&family=Playfair+Display:wght@700&display=swap');
@@ -122,25 +80,3 @@ p{
   font-size: 15px !important;
 }
 
-@media screen and (max-width : 950px) {
-  .navSideLogo{
-    width: 40% !important;
-    overflow-y: hidden;
-  }
-  nav img{
-    width: 30%;
-  }
-  .navSideLogo a{
-    width: 3rem ;
-    height: 3rem;
-  }
-  .navSideLogo img{
-    width: 3rem;
-border-radius: 10px;
-
-    height: 3rem;
-    margin: auto;
-
-  }
-  
-}
