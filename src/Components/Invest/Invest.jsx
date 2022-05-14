@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./Invest.scss";
 import image from "../../Assets/Manage money.gif";
 
@@ -7,13 +7,39 @@ const Invest = () => {
   const [duration, setDuration] = useState(10);
   const [roi, setRoi] = useState(10);
   const [answer, setAnswer] = useState("100");
-  console.log(roi);
-  console.log(duration);
-  const Calculator = () => {
+
+  useEffect(() => {
+    console.log(duration);
+    if (duration == 10) {
+      setRoi("10");
+    }
+    if (duration == 15) {
+      setRoi("11");
+    }
+    if (duration == 30) {
+      setRoi("12");
+    }
+    if (duration == 45) {
+      setRoi("13");
+    }
+    if (duration == 60) {
+      setRoi("14");
+    }
+    if (duration == 90) {
+      setRoi("15");
+    }
+    if (duration == 180) {
+      setRoi("17");
+    }
+    if (duration == 365) {
+      setRoi("25");
+    }
+
     const interest = (((amount * roi) / 100) * duration) / 365;
     const total = interest;
-    setAnswer(parseInt(total) + parseInt(amount));
-  };
+    const final = parseFloat(total) + parseFloat(amount);
+    setAnswer(final.toFixed(2));
+  }, [duration]);
 
   return (
     <div className="InvestMainContainer">
@@ -132,32 +158,32 @@ const Invest = () => {
               </div>
               <div className="col-4">
                 <p className="m-auto">Rate of Interest</p>
-                <input
+                <div
+                  className=" w-100 p-3"
                   style={{
                     background: "none",
                     border: "1px solid white",
                     color: "white",
                     borderRadius: "50px",
                   }}
-                  className="w-100 p-3"
-                  type="tel"
-                  placeholder="Rate of interest"
-                  value={roi}
-                  onChange={(e) => setRoi(e.target.value)}
-                />
+                >
+                  <h5 className="m-auto">{roi}%</h5>
+                </div>
               </div>
             </div>
             <br />
 
             <div className="row">
-              <div className="col-6">
-                <button
-                  className="w-100 p-3"
-                  style={{ borderRadius: "50px" }}
-                  onClick={() => Calculator()}
-                >
-                  Maturity Amount
-                </button>
+              <div
+                className="col-6 d-flex align-items-center justify-content-center bg-light text-dark"
+                style={{
+                  background: "none",
+                  border: "1px solid white",
+                  color: "white",
+                  borderRadius: "50px",
+                }}
+              >
+                <h5 className="my-auto">Maturity Amount</h5>
               </div>
               <div className="col-6">
                 <div
