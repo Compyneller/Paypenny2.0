@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
 .HeroMainContainer{
-    min-height: 100vh;
+    min-height: 90vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -14,8 +14,8 @@
 
     background-image: linear-gradient(to right bottom , black 10%, transparent 90%);
     .HeroVideo{
-        position: fixed;
-        min-height: 100vh;
+        position: absolute;
+        min-height: 90vh;
         top: 0;
         left: 0;
         z-index: -2;
@@ -41,7 +41,7 @@
         z-index: 2;
         h1{ 
             // width: 70%;
-            font-size: 70px;
+            font-size: 3.438vw;
             text-align: center;
             font-family: 'Playfair Display', serif;
             z-index: -1 !important;

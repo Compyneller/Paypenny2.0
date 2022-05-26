@@ -9,9 +9,7 @@ const EarnHeroSection = () => {
       <div className="EarnForeground">
         <video muted autoPlay loop className="EarnBanner" src={banner} alt="" />
       </div>
-      <div className="HeroNavBar">
-        <NavBar />
-      </div>
+
       <div className="container">
         <h1>Maximize your money and transform it into a treasure!</h1>
         <p>

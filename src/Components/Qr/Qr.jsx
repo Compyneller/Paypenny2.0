@@ -7,8 +7,8 @@ const Qr = () => {
     <div className="qrMainContainer">
       <div className="container">
         <div className="row">
-          <div className="col-12 col-lg-6">
-            <div className="w-100 d-flex">
+          <div className="col-12 col-lg-6 d-flex align-items-center">
+            <div className="w-100 ">
               <div className="w-75 mx-auto">
                 <h5>Scan to download app</h5>
                 <img src={qr} alt="" />

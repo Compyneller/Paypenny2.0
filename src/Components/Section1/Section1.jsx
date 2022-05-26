@@ -14,14 +14,14 @@ const Section1 = () => {
               and experience the difference.
             </p>
             <a
-              href="https://apps.apple.com/in/app/paypenny/id1545140323"
+              href="https://play.google.com/store/apps/details?id=com.bhanguz.Paypenny&hl=en_IN&gl=US"
               target="_blank"
             >
               <i className="fa-brands fa-google-play " />
               <p>Download PayPenny App</p>
             </a>
             <a
-              href="https://play.google.com/store/apps/details?id=com.bhanguz.Paypenny&hl=en_IN&gl=US"
+              href="https://apps.apple.com/in/app/paypenny/id1545140323"
               target="_blank"
             >
               <i className="fa-brands fa-apple "></i>

@@ -12,7 +12,7 @@ const Reason = () => {
         <br />
         <div className="row">
           <div className="col-12 col-lg-4">
-            <div className="block">
+            <div className="blockCard">
               <img src={image} alt="" />
               <p>
                 I save money every week from my expenses and invest it into the
@@ -25,7 +25,7 @@ const Reason = () => {
             </div>
           </div>
           <div className="col-12 col-lg-4">
-            <div className="block">
+            <div className="blockCard">
               <img src={image} alt="" />
               <p>
                 I am very happy with the interest rate provided on an
@@ -37,7 +37,7 @@ const Reason = () => {
             </div>
           </div>
           <div className="col-12 col-lg-4">
-            <div className="block">
+            <div className="blockCard">
               <img src={image} alt="" />
               <p>
                 Most trustable and easy feature to grow your money. I have been
@@ -53,28 +53,32 @@ const Reason = () => {
         <br />
         <br />
         <div className="row">
-          <div className="col-12 col-lg-6">
-            <div className="block ">
-              <img src={image} alt="" />
-              <p>
-                I have been using Earn Wallet regularly. In the beginning, it
-                didn't give me a vibe check so I invested a small amount just
-                for 10 days then after 10 days I got my money back with 10%
-                interest. Awesome! Now, I regularly use the Paypenny app.
-              </p>
-              <h5>- Vansh Chaddha</h5>
+          <div className="col-12 col-lg-6  ">
+            <div className="reasonRow2">
+              <div className="blockCard ">
+                <img src={image} alt="" />
+                <p>
+                  I have been using Earn Wallet regularly. In the beginning, it
+                  didn't give me a vibe check so I invested a small amount just
+                  for 10 days then after 10 days I got my money back with 10%
+                  interest. Awesome! Now, I regularly use the Paypenny app.
+                </p>
+                <h5>- Vansh Chaddha</h5>
+              </div>
             </div>
           </div>
-          <div className="col-12 col-lg-6">
-            <div className="block">
-              <img src={image} alt="" />
-              <p>
-                My friends recommended Earn Wallet. A simply great feature to
-                grow your CAD. I like customer support the most. They easily
-                explained the whole process on call. Trustable & giving best
-                interest on savings. All of my friends & I use Earn Wallet.
-              </p>
-              <h5>- Noah Willson</h5>
+          <div className="col-12 col-lg-6 ">
+            <div className="reasonRow3">
+              <div className="blockCard">
+                <img src={image} alt="" />
+                <p>
+                  My friends recommended Earn Wallet. A simply great feature to
+                  grow your CAD. I like customer support the most. They easily
+                  explained the whole process on call. Trustable & giving best
+                  interest on savings. All of my friends & I use Earn Wallet.
+                </p>
+                <h5>- Noah Willson</h5>
+              </div>
             </div>
           </div>
         </div>

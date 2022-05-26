@@ -19,6 +19,7 @@ const Earn = () => {
       <Reason />
       <SaveMoney />
       <Qr />
+      <div className="divider container"></div>
     </div>
   );
 };

@@ -8,7 +8,7 @@
     padding: 3rem 0;
     color: white;
     text-align: center;
-    .block{
+    .blockCard{
         position: relative;
         width: 300px;
         min-height: 400px;
@@ -18,55 +18,78 @@
         overflow: hidden;
         flex-direction: column;
         margin: 0 auto;
-        
-    border-radius: 20px;
-    background: rgba(0,0,0,0.5);
-    img{
-        z-index: 100;
-        width: 40%;
-        image-rendering: auto;
-  image-rendering: crisp-edges;
-  image-rendering: pixelated;
+            
+        border-radius: 20px;
+        background: rgba(0,0,0,0.5);
+            img{
+                z-index: 100;
+                width: 40%;
+                image-rendering: auto;
+                image-rendering: crisp-edges;
+                image-rendering: pixelated;
 
-  /* Safari seems to support, but seems deprecated and does the same thing as the others. */
-  image-rendering: -webkit-optimize-contrast;
+                image-rendering: -webkit-optimize-contrast;
+                filter: invert(0) !important;
+            }
+            p, h5{
+                z-index: 100;
+                color: white;
+                text-align: center;
+                width: 90%;
+            }
+            &::before{
+                content: '';
+                position: absolute;
+                width: 150px;
+                height: 140%;
+                background: linear-gradient(#00ccff, #d400d4);
+                animation: animate 4s linear infinite;
+                
+            }
+            @keyframes animate {
+                0%{
+                    transform: rotate(0deg);
+                }
+                
+                100%{
+                    transform: rotate(360deg);
+                }
+            }
+            &::after{
+                content: "";
+                position: absolute;
+                inset: 4px;
+                background: #0e1538;
+                border-radius: 16px;
+            }
     }
-    p, h5{
-        z-index: 100;
-        color: white;
-        text-align: center;
-        width: 90%;
+    .reasonRow2{
+        display: flex;
+        width: 100%;
+        justify-content: flex-end !important;
+        .blockCard{
+            margin-right: 1rem;
+        }
     }
-    &::before{
-        content: '';
-        position: absolute;
-        width: 150px;
-        height: 140%;
-        background: linear-gradient(#00ccff, #d400d4);
-        animation: animate 4s linear infinite;
-        
+    .reasonRow3{
+        display: flex;
+        width: 100%;
+        justify-content: flex-end !important;
+        .blockCard{
+            margin-left: 1rem;
+        }
     }
-    @keyframes animate {
-        0%{
-            transform: rotate(0deg);
+    }
+    @media screen and (max-width : 1342px) {
+        .blockCard{
+            width: 100% !important;
         }
         
-        100%{
-            transform: rotate(360deg);
-        }
     }
-    &::after{
-        content: "";
-        position: absolute;
-        inset: 4px;
-        background: #0e1538;
-        border-radius: 16px;
-    }
-}
-    }
-
-    @media screen and (max-width : 950px) {
-        .block{
+ 
+    @media screen and (max-width : 990px) {
+        .blockCard{
+            width: 300px !important;
             margin: 2rem auto !important;
         }
         

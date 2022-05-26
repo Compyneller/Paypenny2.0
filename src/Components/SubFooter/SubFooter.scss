@@ -1,0 +1,55 @@
+.subFooterMainContainer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: calc(3rem + 25px) 0;
+    .subFooterCard{
+        width: 100%;
+        min-height: 40vh;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        border-radius: 10px;
+        text-align: center;
+    .subFooterContent{
+        position: absolute;
+        top: 25px;
+        padding: 0 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 100%;
+
+        
+    }
+  
+    img{
+        width: 45px;
+        height: 45px;
+        position: absolute;
+        top: -22.5px;
+        
+    }
+    &::before{
+        content: '';
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: white;
+        position: absolute;
+        left: calc(50% - 25px);
+        top: -25px;
+    }
+}
+}
+
+@media screen and (max-width : 992px) {
+    .subFooterCard{
+        margin: 2rem 0 !important;
+    }
+    
+}

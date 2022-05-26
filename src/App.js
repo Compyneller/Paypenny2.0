@@ -7,11 +7,16 @@ import TC from "./Pages/TC";
 import ContactUs from "./Pages/ContactUs";
 import Earn from "./Pages/Earn";
 import CustomerJourney from "./Pages/CustomerJourney";
+import PaypennyUK from "./Pages/PaypennyUK";
+import PaypennyEU from "./Pages/PaypennyEU";
+import NavBar from "./Components/NavBar/NavBar";
+import SubFooter from "./Components/SubFooter/SubFooter";
 
 function App() {
   return (
     <div className="App">
       <Router>
+        <NavBar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/privacypolicy" element={<PrivacyPolicy />} />
@@ -19,7 +24,11 @@ function App() {
           <Route path="/contactus" element={<ContactUs />} />
           <Route path="/earns" element={<Earn />} />
           <Route path="/processflow" element={<CustomerJourney />} />
+          <Route path="/uk" element={<PaypennyUK />} />
+          <Route path="/eu" element={<PaypennyEU />} />
         </Routes>
+        <SubFooter />
+        <div className="divider container"></div>
         <Footer />
       </Router>
     </div>

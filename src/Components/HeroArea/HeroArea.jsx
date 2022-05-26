@@ -13,9 +13,7 @@ const HeroArea = () => {
   return (
     <div className="HeroMainContainer">
       <video className="HeroVideo" muted autoPlay loop src={video} />
-      <div className="HeroNavBar">
-        <NavBar />
-      </div>
+
       <div className="container">
         <div className="row">
           <div className="col-12 d-flex align-items-center justify-content-center">
