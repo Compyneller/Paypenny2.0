@@ -15,7 +15,11 @@ const SaveMoney = () => {
           additional information in this guide. Check out & start you journey
           now!
         </p>
-        <Link className="cta" to="/processflow">
+        <Link
+          className="cta"
+          to="/processflow"
+          onClick={() => window.scroll(0, 0)}
+        >
           Earn Wallet Process
         </Link>
         <br />
@@ -25,7 +29,11 @@ const SaveMoney = () => {
           We are avaiable 24/7. Feel free to connect with our team for any
           queries or issues. They will be happy to assist you.
         </p>
-        <Link className="cta" to="/contactus">
+        <Link
+          className="cta"
+          to="/contactus"
+          onClick={() => window.scroll(0, 0)}
+        >
           Customer Support Help
         </Link>
       </div>
