@@ -5,12 +5,13 @@ import UKHero from "../Components/UKPageComponents/UKHero/UKHero";
 import video from "../Assets/futuristic-ui-hud-head-up-display-analytic-screen-2021-11-01-09-02-14-utc.mp4";
 
 const PaypennyEU = () => {
+  const heading = "Send INR faster from abroad to India. ";
   return (
     <div>
-      <UKHero video={video} />
+      <UKHero video={video} heading={heading} />
       <div className="WalletMainContainer">
         <div className="container">
-          <h1>Benefits Of Investing With Earn Wallet</h1>
+          <h1>What makes us stand out in the market?</h1>
           <div className="row">
             <div className="box w-100" style={{ minHeight: "15vh" }}>
               <div className="content">

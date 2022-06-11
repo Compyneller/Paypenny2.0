@@ -18,8 +18,6 @@ const Earn = () => {
       <Withdrawals />
       <Reason />
       <SaveMoney />
-      <Qr />
-      <div className="divider container"></div>
     </div>
   );
 };

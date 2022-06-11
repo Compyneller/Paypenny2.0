@@ -1,6 +1,6 @@
 import React from "react";
 // import NavBar from "../../NavBar/NavBar";
-const UKHero = ({ video }) => {
+const UKHero = ({ video, heading }) => {
   return (
     <div className="EarnHeroMainContainer">
       <div className="EarnForeground">
@@ -8,11 +8,11 @@ const UKHero = ({ video }) => {
       </div>
 
       <div className="container">
-        <h1>Maximize your money and transform it into a treasure!</h1>
-        <p>
-          An exciting opportunity to earn massive interest on your savings. Grow
-          your money by a hassle-free process with Earn Wallet.
-        </p>
+        <h1>{heading}</h1>
+        <h4>
+          Just Download the Paypenny app, Get your KYC done in under a minute
+          and Send money to your loved ones in India!
+        </h4>
       </div>
     </div>
   );

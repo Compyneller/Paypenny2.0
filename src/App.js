@@ -11,6 +11,7 @@ import PaypennyUK from "./Pages/PaypennyUK";
 import PaypennyEU from "./Pages/PaypennyEU";
 import NavBar from "./Components/NavBar/NavBar";
 import SubFooter from "./Components/SubFooter/SubFooter";
+import Qr from "./Components/Qr/Qr";
 
 function App() {
   return (
@@ -27,6 +28,8 @@ function App() {
           <Route path="/uk" element={<PaypennyUK />} />
           <Route path="/eu" element={<PaypennyEU />} />
         </Routes>
+        <Qr />
+        <div className="divider container"></div>
         <SubFooter />
         <div className="divider container"></div>
         <Footer />

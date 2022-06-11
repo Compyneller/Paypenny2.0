@@ -5,7 +5,7 @@ const First = () => {
   return (
     <div className="WalletMainContainer">
       <div className="container">
-        <h1>Benefits Of Investing With Earn Wallet</h1>
+        <h1>What makes us stand out in the market?</h1>
         <div className="row">
           <div className="col-12 col-md-6 col-lg-4">
             <div className="box">

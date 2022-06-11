@@ -73,7 +73,10 @@ const SubFooter = () => {
           Registered & regulated by FINTRAC. We are approved by the Financial
           Transactions and Reports Analysis Center of Canada.
         </p>
-        <h1 className=" text-center" style={{ color: "goldenrod" }}>
+        <h1
+          className=" text-center"
+          style={{ color: "goldenrod", fontSize: "55px" }}
+        >
           Trusted by over 1,25,000+ users
         </h1>
       </div>
