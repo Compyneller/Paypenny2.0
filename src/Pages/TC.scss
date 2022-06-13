@@ -1,5 +1,6 @@
 .tcMainContainer{
-    min-height: 100vh;
+    min-height: fit-content ;
+    padding: 3rem 0;
     width: 100%;
     display: flex;
     align-items: center;
@@ -9,10 +10,7 @@
       );
       color: white;
       flex-direction: column;
-      img{
-          filter: invert(1);
-          mix-blend-mode: screen;
-      }
+      
     .tcContainer{
         height: 80vh;
         background: white;
@@ -39,6 +37,13 @@
             line-height: 35px;
         }
     }
+    .ContactUsContainer{
+        width: 100%;
+        border-radius: 10px;
+        background-color: white;
+        padding:  2rem;
+        color: black;
+    }
 }
 
 @media screen and (max-width : 950px) {
@@ -55,6 +60,16 @@
       
         li{
             line-height: 35px;
+        }
+    }
+     .ContactUsContainer{
+        width: 100%;
+        border-radius: 10px;
+        background-color: white;
+        padding: 1rem 1rem !important;
+        color: black;
+        img{
+            margin-right: 30px !important;
         }
     }
     

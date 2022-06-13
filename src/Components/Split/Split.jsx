@@ -29,7 +29,7 @@ const Split = () => {
                     <th scope="col">Time period </th>
                     <th scope="col">Rate of Interest (%)</th>
                     <th scope="col">Maturity Amount</th>
-                    <th scope="col">Purpose</th>
+                    <th scope="col">Investment Purpose</th>
                   </tr>
                 </thead>
                 <tbody>

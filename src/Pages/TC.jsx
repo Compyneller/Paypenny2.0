@@ -11,6 +11,7 @@ const TC = () => {
             className="w-50 my-auto"
             src="https://img.icons8.com/ios-glyphs/2x/home-page--v2.gif"
             alt=""
+            style={{ filter: "invert(1)", mixBlendMode: "screen" }}
           />
         </Link>
         <h1 className="my-auto">Terms & Conditions</h1>

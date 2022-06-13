@@ -17,7 +17,7 @@ const Why = () => {
               alt=""
             />
             <h3>We're Fast</h3>
-            <p>90% of our transactions are authorized in minutes</p>
+            <p>90% of our transactions are authorized in minutes.</p>
             <br />
             <br />
             <img
@@ -27,7 +27,7 @@ const Why = () => {
             <h3>We’re Safe</h3>
             <p className="w-75 ">
               Our industry-leading technology protects your INR(D) and
-              guarantees it arrives safely every time
+              guarantees it arrives safely every time.
             </p>
           </div>
         </div>

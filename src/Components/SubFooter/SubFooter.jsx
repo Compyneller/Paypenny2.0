@@ -15,7 +15,7 @@ const SubFooter = () => {
               <div className="subFooterContent">
                 <h5>24/7 INR(D) Transfer</h5>
                 <p>
-                  Send INR(D) to India whenever you want to with our iOS &
+                  Send INR(D) worldwide whenever you want to with our iOS &
                   Android mobile application. We are always open to you.{" "}
                 </p>
               </div>

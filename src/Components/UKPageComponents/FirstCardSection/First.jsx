@@ -15,6 +15,7 @@ const First = () => {
                   alt=""
                 />
                 <h5>Super Wallet</h5>
+                <br />
                 <p>
                   Paypenny present’s Super wallet where you can add as low as £1
                   and as high as £50,000 as many times as you want in a single
@@ -30,7 +31,8 @@ const First = () => {
                   src="https://img.icons8.com/ios/2x/bank-card-front-side--v2.gif"
                   alt=""
                 />
-                <h5>Transaction Fees</h5>
+                <h5>No Transaction Fees</h5>
+                <br />
                 <p>
                   Say Goodbye to the high transaction fee as Paypenny incurs
                   zero fees with no hidden charges or additional charges on your
@@ -46,11 +48,11 @@ const First = () => {
                   src="https://img.icons8.com/pastel-glyph/2x/trust--v2.gif"
                   alt=""
                 />
-                <h5>Supports 100+ Indian Banks</h5>
+                <h5>Highest Interest Rates Guaranteed</h5>
                 <p>
-                  Get access to almost all the national & private Indian banks
-                  and directly send INR(D) into your family member's bank
-                  account.
+                  Paypenny provides you with the highest exchange interest rates
+                  in the industry. Send INR(D) worldwide with the flexible
+                  exchange rates.
                 </p>
               </div>
             </div>

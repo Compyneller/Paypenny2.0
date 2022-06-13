@@ -76,7 +76,7 @@ const Second = () => {
               <h5>Staking</h5>
               <p>
                 Stake your money with 'Earn Wallet' in the Paypenny app to get
-                massive interest in your holdings. Now Invest, Hold & Earn like
+                massive interest on your holdings. Now Invest, Hold & Earn like
                 nowhere else!
               </p>
             </div>

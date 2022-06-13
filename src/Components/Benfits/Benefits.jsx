@@ -59,8 +59,8 @@ const Benefits = () => {
               />
               <h5>Better Rates</h5>
               <p>
-                Sending INR(D) home to India is up to twenty times cheaper with
-                paypenny than the banks.
+                Sending INR(D) to your home is comparatively lower than the
+                banks, get the best rates at ease!
               </p>
             </div>
           </div>
@@ -77,8 +77,8 @@ const Benefits = () => {
               <img src="https://img.icons8.com/ios/2x/check--v2.gif" alt="" />
               <h5>Easy & Convenient</h5>
               <p>
-                Get started in minutes with our simple signup process. Remit to
-                India on the go with our mobile app
+                Get started in minutes with our simple signup process. Remit
+                INR(D) worldwide on the go with our mobile app.
               </p>
             </div>
           </div>

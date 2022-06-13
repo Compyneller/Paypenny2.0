@@ -3,13 +3,12 @@ import "./Invest.scss";
 import image from "../../Assets/Manage money.gif";
 
 const Invest = () => {
-  const [amount, setAmount] = useState(100);
+  const [principle, setPrinciple] = useState(100);
   const [duration, setDuration] = useState(10);
   const [roi, setRoi] = useState(10);
   const [answer, setAnswer] = useState("100");
 
   useEffect(() => {
-    console.log(duration);
     if (duration == 10) {
       setRoi("10");
     }
@@ -35,11 +34,12 @@ const Invest = () => {
       setRoi("25");
     }
 
-    const interest = (((amount * roi) / 100) * duration) / 365;
-    const total = interest;
-    const final = parseFloat(total) + parseFloat(amount);
-    setAnswer(final.toFixed(2));
-  }, [duration]);
+    const interest =
+      (parseFloat(principle) * parseFloat(roi) * parseFloat(duration)) / 36500 +
+      parseFloat(principle);
+
+    setAnswer(interest.toFixed(2));
+  }, [principle, duration, roi]);
 
   return (
     <div className="InvestMainContainer">
@@ -111,8 +111,8 @@ const Invest = () => {
                   className="w-100 p-3"
                   type="tel"
                   placeholder="Amount"
-                  value={amount}
-                  onChange={(e) => setAmount(e.target.value)}
+                  value={principle}
+                  onChange={(e) => setPrinciple(e.target.value)}
                 />
               </div>
               <div className="col-4">
