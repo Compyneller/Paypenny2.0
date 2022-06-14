@@ -43,6 +43,9 @@ const Qr = () => {
               <a target="_blank" href="https://twitter.com/payPENNY2">
                 <i id="twitterIcon" className="ri-twitter-line"></i>
               </a>
+              <a target="_blank" href="https://medium.com/@admin_17494">
+                <i className="ri-medium-line"></i>
+              </a>
             </div>
           </div>
         </div>

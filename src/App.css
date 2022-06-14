@@ -44,7 +44,7 @@ body{
   /* Safari seems to support, but seems deprecated and does the same thing as the others. */
   image-rendering: -webkit-optimize-contrast;
   mix-blend-mode: screen;
-  font-size: 45px;
+  font-size: 35px;
 }
 
 .divider{

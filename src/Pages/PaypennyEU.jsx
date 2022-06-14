@@ -55,7 +55,7 @@ const PaypennyEU = () => {
                     src="https://img.icons8.com/pastel-glyph/2x/trust--v2.gif"
                     alt=""
                   />
-                  <h5>Highest Interest Rates Guaranteed</h5>
+                  <h5>Highest Exchange Rates Guaranteed</h5>
                   <p>
                     Paypenny provides you with the highest exchange interest
                     rates in the industry. Send INR(D) worldwide with the

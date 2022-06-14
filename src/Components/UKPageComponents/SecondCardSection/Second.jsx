@@ -62,7 +62,7 @@ const Second = () => {
               />
               <h5>Send INR(D) Everyday</h5>
               <p>
-                Paypenny provides its services 7 times a week. That's
+                Paypenny provides its services 7 days a week. That's
                 incomparable, right? Enjoy our services every day!
               </p>
             </div>
