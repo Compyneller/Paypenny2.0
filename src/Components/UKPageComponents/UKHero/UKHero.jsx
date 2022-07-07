@@ -11,7 +11,7 @@ const UKHero = ({ video, heading }) => {
         <h1>{heading}</h1>
         <h4>
           Just Download the Paypenny app, Get your KYC done in under a minute
-          and Send INR(D) to your loved ones worldwide!
+          and Send Crypto to your loved ones worldwide!
         </h4>
       </div>
     </div>

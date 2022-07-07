@@ -6,7 +6,8 @@ import video from "../Assets/futuristic-ui-hud-head-up-display-analytic-screen-2
 
 const PaypennyEU = () => {
   const heading =
-    "Send, Receive, Trade & Store INR(D) worldwide with Paypenny. ";
+    "Send, Receive, Trade & Store Crypto worldwide with Paypenny. ";
+
   return (
     <div>
       <UKHero video={video} heading={heading} />
@@ -58,7 +59,7 @@ const PaypennyEU = () => {
                   <h5>Highest Exchange Rates Guaranteed</h5>
                   <p>
                     Paypenny provides you with the highest exchange interest
-                    rates in the industry. Send INR(D) worldwide with the
+                    rates in the industry. Send Crypto worldwide with the
                     flexible exchange rates.
                   </p>
                 </div>

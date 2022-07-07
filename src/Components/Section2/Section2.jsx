@@ -9,8 +9,8 @@ const Section2 = () => {
         <div className="row">
           <div className="col-12 col-lg-6 d-flex flex-column justify-content-center">
             <h1>
-              Transfer INR(D) Worldwide with Paypenny. Install the app, signup,
-              and send INR(D) to your loved ones.
+              Transfer Crypto Worldwide with Paypenny. Install the app, signup,
+              and send Crypto to your loved ones.
             </h1>
             <br />
 

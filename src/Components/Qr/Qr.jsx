@@ -34,16 +34,16 @@ const Qr = () => {
               </a>
             </div>
             <div className="qrSocialsButton">
-              <a target="_blank" href="https://www.facebook.com/PayPennyCa/">
+              <a target="_blank" href="">
                 <i id="facebookIcon" className="ri-facebook-circle-line"></i>
               </a>
-              <a target="_blank" href="https://www.instagram.com/paypennyca/">
+              <a target="_blank" href="">
                 <i id="instagramIcon" className="ri-instagram-line"></i>
               </a>
-              <a target="_blank" href="https://twitter.com/payPENNY2">
+              <a target="_blank" href="">
                 <i id="twitterIcon" className="ri-twitter-line"></i>
               </a>
-              <a target="_blank" href="https://medium.com/@admin_17494">
+              <a target="_blank" href="">
                 <i className="ri-medium-line"></i>
               </a>
             </div>

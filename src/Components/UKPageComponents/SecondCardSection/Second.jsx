@@ -32,7 +32,7 @@ const Second = () => {
               <h5>Instant Transfer</h5>
               <p>
                 Sit back, breathe & relax Paypenny covers thousands of
-                transactions in a minute. Now, send INR(D) instantly to your
+                transactions in a minute. Now, send Crypto instantly to your
                 loved ones!
               </p>
             </div>
@@ -60,7 +60,7 @@ const Second = () => {
                 src="https://img.icons8.com/ios/2x/mailbox-closed-flag-down--v2.gif"
                 alt=""
               />
-              <h5>Send INR(D) Everyday</h5>
+              <h5>Send Crypto Everyday</h5>
               <p>
                 Paypenny provides its services 7 days a week. That's
                 incomparable, right? Enjoy our services every day!

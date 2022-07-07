@@ -6,7 +6,8 @@ import video from "../Assets/Untitled (1).mp4";
 
 const PaypennyUK = () => {
   const heading =
-    "Send, Receive, Trade & Store INR(D) worldwide with Paypenny.";
+    "Send, Receive, Trade & Store Crypto worldwide with Paypenny.";
+
   return (
     <div>
       <UKHero video={video} heading={heading} />

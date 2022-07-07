@@ -15,6 +15,9 @@ const EarnHeroSection = () => {
         <p>
           An exciting opportunity to earn massive interest on your savings. Grow
           your money by a hassle-free process with Earn Wallet.
+          <span style={{ fontSize: "12px", marginLeft: "10px" }}>
+            (Services applicable only for Canada)
+          </span>
         </p>
       </div>
     </div>

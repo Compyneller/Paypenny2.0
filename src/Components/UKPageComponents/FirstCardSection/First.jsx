@@ -51,7 +51,7 @@ const First = () => {
                 <h5>Highest Exchange Rates Guaranteed</h5>
                 <p>
                   Paypenny provides you with the highest exchange interest rates
-                  in the industry. Send INR(D) worldwide with the flexible
+                  in the industry. Send Crypto worldwide with the flexible
                   exchange rates.
                 </p>
               </div>

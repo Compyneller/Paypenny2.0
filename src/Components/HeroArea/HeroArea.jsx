@@ -18,7 +18,7 @@ const HeroArea = () => {
         <div className="row">
           <div className="col-12 d-flex align-items-center justify-content-center">
             <h1>
-              Buy, Sell, Send, Receive, Store, Stake Trade INR(D) worldwide
+              Buy, Sell, Send, Receive, Store, Stake Trade Crypto worldwide
             </h1>
           </div>
         </div>
