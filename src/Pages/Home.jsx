@@ -1,6 +1,7 @@
 import React from "react";
 import Ambassador from "../Components/Ambassador/Ambassador";
 import Benefits from "../Components/Benfits/Benefits";
+import BlogComp from "../Components/BlogComp/BlogComp";
 import CreateAccount from "../Components/CreateAccount/CreateAccount";
 import HeroArea from "../Components/HeroArea/HeroArea";
 import NavBar from "../Components/NavBar/NavBar";
@@ -19,6 +20,7 @@ const Home = () => {
       <Why />
       <Section2 />
       <Qr />
+      <BlogComp />
       <Ambassador />
     </>
   );

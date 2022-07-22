@@ -13,6 +13,7 @@ import NavBar from "./Components/NavBar/NavBar";
 import SubFooter from "./Components/SubFooter/SubFooter";
 import Qr from "./Components/Qr/Qr";
 import Blogs from "./Pages/Blog/Blogs";
+import Blog2 from "./Pages/Blog2/Blog2";
 
 function App() {
   return (
