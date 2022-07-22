@@ -1,8 +1,13 @@
 import React from "react";
+import BlogComp from "../BlogComp/BlogComp";
 import "./Ambassador.scss";
 const Ambassador = () => {
   return (
     <div className="AmbassadorMainContainer">
+      <BlogComp />
+      <br />
+      <br />
+      <div className="homeDivider container"></div>
       <div className="container mb-5">
         <h1>Become Our Brand Ambassador</h1>
         <p>

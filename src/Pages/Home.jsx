@@ -20,7 +20,7 @@ const Home = () => {
       <Why />
       <Section2 />
       <Qr />
-      <BlogComp />
+
       <Ambassador />
     </>
   );
