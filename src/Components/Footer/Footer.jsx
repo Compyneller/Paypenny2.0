@@ -26,7 +26,7 @@ const Footer = () => {
             to="/privacypolicy"
             onClick={() => scrollToTop()}
           >
-            Privacy & Policy
+            Privacy Policy
           </Link>
           <Link
             style={{ textDecoration: "none" }}
@@ -35,6 +35,15 @@ const Footer = () => {
             onClick={() => scrollToTop()}
           >
             Contact Us
+          </Link>
+          <Link
+            style={{ textDecoration: "none" }}
+            className="text-light"
+            to="/blog"
+            target="_blank"
+            onClick={() => scrollToTop()}
+          >
+            Blog
           </Link>
         </div>
         <br />

@@ -14,7 +14,7 @@ const PrivacyPolicy = () => {
             style={{ filter: "invert(1)", mixBlendMode: "screen" }}
           />
         </Link>
-        <h1 className="my-auto">Privacy & Policy</h1>
+        <h1 className="my-auto">Privacy Policy</h1>
       </div>
 
       <div className="tcContainer">
@@ -1337,6 +1337,25 @@ const PrivacyPolicy = () => {
                     data-element_type="widget"
                     data-widget_type="text-editor.default"
                   >
+                    <h5>Deleting Personal Data</h5>
+                    <p>
+                      If you no longer want us to use your information or data
+                      to provide the Paypenny Services to you, you can request
+                      that we remove your personal information and delete your
+                      account, write us at:{" "}
+                      <a href="mailto:help@paypenny.io">help@paypenny.io</a> The
+                      admin will erase your personal, transactional, and other
+                      related information to you and your account permanently.{" "}
+                      <br />
+                      <br />
+                      We generally save your personal information or other
+                      personal data for as long as is necessary for the
+                      implementation of the contract between you and us and to
+                      comply with our legal responsibilities. If any of your
+                      personal, transactional, or other information or data is
+                      deleted after you request to admin through email, it can
+                      never be retrieved on your request in the future.
+                    </p>
                     <div className="elementor-widget-container">
                       <p>
                         A comprehensive privacy management program provides an

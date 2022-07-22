@@ -12,6 +12,7 @@ import PaypennyEU from "./Pages/PaypennyEU";
 import NavBar from "./Components/NavBar/NavBar";
 import SubFooter from "./Components/SubFooter/SubFooter";
 import Qr from "./Components/Qr/Qr";
+import Blogs from "./Pages/Blog/Blogs";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <Route path="/processflow" element={<CustomerJourney />} />
           <Route path="/uk" element={<PaypennyUK />} />
           <Route path="/eu" element={<PaypennyEU />} />
+          <Route path="/blog" element={<Blogs />} />
         </Routes>
         <Qr />
         <div className="divider container"></div>
