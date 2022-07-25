@@ -11,6 +11,7 @@ const BlogComp = () => {
           lg={6}
           className="d-flex flex-column justify-content-center"
         >
+          <h1>Blogs</h1>
           <h1>
             How to transfer money from Canada to India without any charges? -
             Paypenny
