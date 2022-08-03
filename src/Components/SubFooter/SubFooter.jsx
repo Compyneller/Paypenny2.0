@@ -13,9 +13,9 @@ const SubFooter = () => {
                 alt=""
               />
               <div className="subFooterContent">
-                <h5>24/7 Crypto Transfer</h5>
+                <h5>24/7 Money Transfer</h5>
                 <p>
-                  Send Crypto worldwide whenever you want to with our iOS &
+                  Send Money to India whenever you want to with our iOS &
                   Android mobile application. We are always open to you.{" "}
                 </p>
               </div>

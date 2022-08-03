@@ -26,8 +26,8 @@ const Why = () => {
             />
             <h3>We’re Safe</h3>
             <p className="w-75 ">
-              Our industry-leading technology protects your Crypto and
-              guarantees it arrives safely every time.
+              Our industry-leading technology protects your Money and guarantees
+              it arrives safely every time.
             </p>
           </div>
         </div>

@@ -17,9 +17,7 @@ const HeroArea = () => {
       <div className="container">
         <div className="row">
           <div className="col-12 d-flex align-items-center justify-content-center">
-            <h1>
-              Buy, Sell, Send, Receive, Store, Stake Trade Crypto worldwide
-            </h1>
+            <h1>SEND MONEY TO INDIA</h1>
           </div>
         </div>
       </div>

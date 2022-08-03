@@ -6,7 +6,7 @@ const Benefits = () => {
     <div className="BenefitsMainContainer">
       <div className="container">
         <h1 className="text-light mb-5">
-          Benefits of sending Crypto with Paypenny
+          Benefits of sending Money with Paypenny
         </h1>
         <div className="row">
           <div
@@ -59,7 +59,7 @@ const Benefits = () => {
               />
               <h5>Better Rates</h5>
               <p>
-                Sending Crypto to your home is comparatively lower than the
+                Sending Money to your home is comparatively lower than the
                 banks, get the best rates at ease!
               </p>
             </div>
@@ -78,7 +78,7 @@ const Benefits = () => {
               <h5>Easy & Convenient</h5>
               <p>
                 Get started in minutes with our simple signup process. Remit
-                Crypto worldwide on the go with our mobile app.
+                Money India on the go with our mobile app.
               </p>
             </div>
           </div>
@@ -90,7 +90,7 @@ const Benefits = () => {
               <img src="https://img.icons8.com/ios/2x/qr-code--v2.gif" alt="" />
               <h5>Track your transfer online</h5>
               <p>
-                Don't lose sight of your Crypto. Track your transfer at every
+                Don't lose sight of your Money. Track your transfer at every
                 stage.
               </p>
             </div>

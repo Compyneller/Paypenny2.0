@@ -26,7 +26,7 @@ const CreateAccount = () => {
               <h5>Choose method</h5>
               <p>
                 We’ll show you the exchange rate and you Select the Method to
-                add the Crypto to your wallet.
+                add the Money to your wallet.
               </p>
             </div>
           </div>
@@ -34,7 +34,7 @@ const CreateAccount = () => {
             <div className="midCard">
               <img src="https://img.icons8.com/ios/2x/file--v2.gif" alt="" />
               <h5>Input receiver details</h5>
-              <p>Tell us the details of the person receiving the Crypto.</p>
+              <p>Tell us the details of the person receiving the Money.</p>
             </div>
           </div>
           <div className="col-12 col-md-6 col-lg-3">
@@ -46,8 +46,8 @@ const CreateAccount = () => {
               <h5>Confirm and send</h5>
               <p>
                 Verify and cross check everything is correct and send your
-                Crypto. That’s it. We’ll take care of the rest and tell you when
-                Crypto is transferred.
+                Money. That’s it. We’ll take care of the rest and tell you when
+                Money is transferred.
               </p>
             </div>
           </div>
