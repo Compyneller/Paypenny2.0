@@ -13,7 +13,7 @@ const SubFooter = () => {
                 alt=""
               />
               <div className="subFooterContent">
-                <h5>24/7 Money Transfer</h5>
+                <h5>24/7 Money Transfer to India</h5>
                 <p>
                   Send Money to India whenever you want to with our iOS &
                   Android mobile application. We are always open to you.{" "}
