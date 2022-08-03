@@ -6,7 +6,7 @@ const Benefits = () => {
     <div className="BenefitsMainContainer">
       <div className="container">
         <h1 className="text-light mb-5">
-          Benefits of sending Money with Paypenny
+          Benefits of Sending Money with Paypenny
         </h1>
         <div className="row">
           <div
@@ -77,8 +77,8 @@ const Benefits = () => {
               <img src="https://img.icons8.com/ios/2x/check--v2.gif" alt="" />
               <h5>Easy & Convenient</h5>
               <p>
-                Get started in minutes with our simple signup process. Remit
-                Money India on the go with our mobile app.
+                Get started in minutes with our simple signup process. Send
+                Money to India on the go with our mobile app.
               </p>
             </div>
           </div>
